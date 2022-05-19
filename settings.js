@@ -16,27 +16,27 @@ global.APIKeys = {
 }
 
 //other
-global.owner = ['27634090203'] 
-global.pemilik = ['27634090203'] //pemilik nomor
-global.premium = ['27634090203'] //premium number
-global.pengguna = 'Drips' //pengguna
-global.botnma = 'ZIM BOT INC' //botnama,botname
-global.ownernma = 'Drips' //ownernama,ownername
-global.packname = 'Drips' // packname
-global.author = 'By Drips Memes' //authorname
+global.owner = ['94782575993']
+global.pemilik = ['94782575993'] //pemilik nomor
+global.premium = ['94782575993'] //premium number
+global.pengguna = 'ZERO/pengguna
+global.botnma = 'ZEROT INC' //botnama,botname
+global.ownernma = 'ZERO/ownernama,ownername
+global.packname = 'ZERO/ packname
+global.author = 'By ZERO TEAM'
 global.sessionName = 'session'
 global.prefa = ['#','!','/',''] 
 global.sp = '🔵'
 global.mess = {
-    success: 'Takaenda Done!',
+    success: 'We went to Done!',
     admin: 'you must be admin to use this cmd!',
-    botAdmin: 'zim bot must be admin neh!',
-    owner: 'This cmd is for zim bot owner only',
-    group: 'oooh sorry this cmd is for groups only!',
-    private: 'goossssh it can only used in dms!',
-    bot: 'This cmd  its only for the bot host',
-    wait: 'wait zim bot processing ',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    botAdmin: 'zero  පරිපාලක විය යුතුය !',
+    owner: 'මෙම cmd zero මිකරු සඳහා පමණි',
+    group: 'සමාවෙන්න, මෙම විධානය කණ්ඩායම් සඳහා පමණි!',
+    private: 'goossssh එය භාවිතා කළ හැක්කේ dms වල පමණි!',
+    bot: 'මෙම cmd එය bot host සඳහා පමණි',
+    wait: 'ZERO bot processing ඉන්න ',
+    endLimit: 'ඔබගේ දෛනික සීමාව කල් ඉකුත් වී ඇත, සීමාව සෑම පැය 12 කට වරක් නැවත සකසනු ලැබේ',
 }
 global.limitawal = {
     premium: "Infinity", 
