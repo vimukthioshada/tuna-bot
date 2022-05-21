@@ -2235,7 +2235,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                         let buttons = [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'REPORT BUG',
-                                                                                                                            url: 'https://wa.me/27634090203?text=hello+bro+i+found+a+bug+in+your+bot'
+                                                                                                                            url: 'https://wa.me/94782575993?text=hello+bro+i+found+a+bug+in+your+bot'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2433,7 +2433,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                     break
                                                                                                             case 'bug': case 'report': {
                                                                                                                 if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                                                                                                                ZimBotInc.sendMessage(`27634090203@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                                                                                                                ZimBotInc.sendMessage(`94782575993@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
                                                                                         Report Message: ${text}` })
                                                                                         reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid`)
                                                                                                             }
@@ -2471,23 +2471,23 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                             break
                                                                                         case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'zimbot': case 'drips':{
                                                                                                         anu = `Hi ${pushname}
-𝗭𝗶𝗺𝗯𝗼𝘁 𝗶𝘀 𝗵𝗲𝗿𝗲 𝗰𝗵𝗶𝗹𝗹𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗯𝗶𝗴 𝗯𝗼𝘆𝘀`
+ZERO 𝗶𝘀 𝗵𝗲𝗿𝗲 𝗰𝗵𝗶𝗹𝗹𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗯𝗶𝗴 𝗯𝗼𝘆𝘀`
                                                                                         const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                                                                                             templateMessage: {
                                                                                                                 hydratedTemplate: {
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZEO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         urlButton: {
                                                                                                                         displayText: 'GITHUB',
-                                                                                                                            url: 'https://github.com/zim-bot/tuna-bot'
+                                                                                                                            url: 'https://github.com/t'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3265,7 +3265,7 @@ hydratedButtons: [{
                                                                                           case 'allmenu': {
                                                                                                anu = `
     ╭───────────╮
-    │𝗭𝗜𝗠𝗕𝗢𝗧-𝗠𝗘𝗡𝗨  ▎
+    │ZERO-𝗠𝗘𝗡𝗨  ▎
     ╰───────────╯
     ╭──❰ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨 ❱
     │🔵 ${prefix}grouplink
