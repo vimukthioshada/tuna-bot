@@ -231,14 +231,14 @@
                                                                                             if (isAntiLink) 
                                                                                         if (budy.includes('https://chat.whatsapp.com/')) {
                                                                                                        if (!m.key.fromMe) {
-                                                                                                       reply('[𝗭𝗜𝗠 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞]\n𝗟𝗶𝗻𝗸 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱 𝗵𝗲𝗿𝗲, 𝗢𝗞𝘆?..,\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗜𝗺 𝗸𝗶𝗰𝗸𝗶𝗻𝗴 𝘂𝗿 𝗮𝘀𝘀 𝗻𝗼𝘄👋🏻')
+                                                                                                       reply('[ZERO 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞]\n𝗟𝗶𝗻𝗸 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱 𝗵𝗲𝗿𝗲, 𝗢𝗞𝘆?..,\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗜𝗺 𝗸𝗶𝗰𝗸𝗶𝗻𝗴 𝘂𝗿 𝗮𝘀𝘀 𝗻𝗼𝘄👋🏻')
                                                                                                        let sianj = m.sender
                                                                                                        await ZimBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                                                                                                        }
                                                                                               }
                                                                                             if (db.chats[m.chat].wame) {
                                                                                                 if (budy.match(`wa.me/`)) {
-                                                                                                m.reply(`「𝗭𝗜𝗠 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞」\n\n𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝗱 𝘄𝗮.𝗺𝗲 𝗹𝗶𝗻𝗸, 𝗻𝗼 𝘁𝗶𝗺𝗲 𝘁𝗼 𝘄𝗮𝘀𝘁𝗲 𝘂𝗮 𝗼𝘂𝘁!`)
+                                                                                                m.reply(`「zero 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞」\n\n𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝗱 𝘄𝗮.𝗺𝗲 𝗹𝗶𝗻𝗸, 𝗻𝗼 𝘁𝗶𝗺𝗲 𝘁𝗼 𝘄𝗮𝘀𝘁𝗲 𝘂𝗮 𝗼𝘂𝘁!`)
                                                                                                   if (!isBotAdmins) return m.reply(`𝘡𝘪𝘮 𝘉𝘰𝘵 𝘮𝘶𝘴𝘵 𝘣𝘦 𝘢𝘥𝘮𝘪𝘯 𝘧𝘪𝘳𝘴𝘵😚`)
                                                                                                 let gclink = (`https://wa.me/`)
                                                                                                 let isLinkThisGc = new RegExp(gclink, 'i')
@@ -2034,16 +2034,16 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                                 case 'juzamma': {
                                                                                                 if (args[0] === 'pdf') {
                                                                                                 replay(mess.wait)
-                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pdf'}, mimetype: 'application/pdf', fileName: 'juz-amma-arab-latin-indonesia.pdf'}, {quoted:m})
+                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/ishlam/juz-amma-arab-latin-indonesia.pdf'}, mimetype: 'application/pdf', fileName: 'juz-amma-arab-latin-indonesia.pdf'}, {quoted:m})
                                                                                                 } else if (args[0] === 'docx') {
                                                                                                 replay(mess.wait)
-                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.docx'}, mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', fileName: 'juz-amma-arab-latin-indonesia.docx'}, {quoted:m})
+                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islahm/juz-amma-arab-latin-indonesia.docx'}, mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', fileName: 'juz-amma-arab-latin-indonesia.docx'}, {quoted:m})
                                                                                                 } else if (args[0] === 'pptx') {
                                                                                                 replay(mess.wait)
-                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx'}, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: 'juz-amma-arab-latin-indonesia.pptx'}, {quoted:m})
+                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/is clam/juz-amma-arab-latin-indonesia.pptx'}, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: 'juz-amma-arab-latin-indonesia.pptx'}, {quoted:m})
                                                                                                 } else if (args[0] === 'xlsx') {
                                                                                                 replay(mess.wait)
-                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.xlsx'}, mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', fileName: 'juz-amma-arab-latin-indonesia.xlsx'}, {quoted:m})
+                                                                                                ZimBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/igslam/juz-amma-arab-latin-indonesia.xlsx'}, mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', fileName: 'juz-amma-arab-latin-indonesia.xlsx'}, {quoted:m})
                                                                                                 } else {
                                                                                                 reply(`What format do you want? ? Example : ${prefix + command} pdf
                                                                                         
@@ -2075,7 +2075,7 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
                                                                                         1 - 5362`
                                                                                                 if (!args[1]) throw `Which Hadith??\n\nExample:\n${prefix + command} muslim 1`
                                                                                                 try {
-                                                                                                let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/${args[0]}`)
+                                                                                                let res = await fetchJson(`https://isl6amic-api-indonesia.herokuapp.com/api/data/json/hadith/${args[0]}`)
                                                                                                 let { number, arab, id } = res.find(v => v.number == args[1])
                                                                                                 reply(`No. ${number}
                                                                                         
@@ -2535,12 +2535,12 @@ To download media, please click one of the buttons below or enter the ytmp3/ytmp
 hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         urlButton: {
                                                                                                                         displayText: 'GITHUB',
-                                                                                                                            url: 'https://github.com/zim-bot/tuna-bot'
+                                                                                                                            url: 'https://github.com/'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2568,11 +2568,11 @@ hydratedButtons: [{
                                                                                         let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                                                                                         listMessage :{
                                                                                                             description: `*PLEASE SELECT MENU BELOW*`,
-                                                                                                            buttonText: "𝗭𝗜𝗠𝗕𝗢𝗧 𝗠𝗘𝗡𝗨",
-                                                                                                            footerText: "ZIM BOT INC 2022",
+                                                                                                            buttonText: "ZERO 𝗠𝗘𝗡𝗨",
+                                                                                                            footerText: "zero BOT INC 2022",
                                                                                                             listType: "SINGLE_SELECT",
                                                                                                             sections: [{
-                                                                                                                        "title": "𝗭𝗜𝗠 𝗕𝗢𝗧 𝗣𝗥𝗘𝗦𝗘𝗡𝗧𝗦",
+                                                                                                                        "title": "zero 𝗕𝗢𝗧 𝗣𝗥𝗘𝗦𝗘𝗡𝗧𝗦",
                                                                                                                         "rows": [
                                                                                                                             {
                                                                                                                                 "title": "𝗚𝗥𝗢𝗨𝗣 𝗖𝗠𝗗",
@@ -2582,7 +2582,7 @@ hydratedButtons: [{
                                                                                                                         ]
                                                                                                                     },
                                                                                                                     {
-                                                                                                                        "title": "𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖",
+                                                                                                                        "title": "zero 𝗕𝗢𝗧 𝗜𝗡𝗖",
                                                                                                                         "rows": [
                                                                                                                             {
                                                                                                                                 "title": "𝗠𝗘𝗡𝗨 𝗖𝗠𝗗",
@@ -2670,7 +2670,7 @@ hydratedButtons: [{
                                                                                                                         "title": "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 𝗕𝗢𝗧𝗦",
                                                                                                                         "rows": [
                                                                                                                             {
-                                                                                                                                "title": "𝗭𝗜𝗠𝗕𝗢𝗧 𝗖𝗥𝗘𝗗𝗜𝗧𝗦",
+                                                                                                                                "title": "𝗭ero 𝗖𝗥𝗘𝗗𝗜𝗧𝗦",
                                                                                                                                 
                                                                                                                                 "rowId": `${prefix}tqtt`
                                                                                                                             }
@@ -2704,11 +2704,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
+                                                                                                                    hydratedFooterText: `zero 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2745,11 +2745,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: okemenu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
+                                                                                                                    hydratedFooterText: `zero 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2781,11 +2781,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
+                                                                                                                    hydratedFooterText: `zero 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2811,11 +2811,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
+                                                                                                                    hydratedFooterText: `ZERO 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2842,11 +2842,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
+                                                                                                                    hydratedFooterText: `ZERO 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2881,11 +2881,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
+                                                                                                                    hydratedFooterText: `ZERO 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/QU9ffSMTLoY'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2914,11 +2914,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -2972,11 +2972,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `zero BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3010,11 +3010,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `zero BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3070,11 +3070,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3110,11 +3110,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3146,11 +3146,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3177,11 +3177,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3208,11 +3208,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3244,11 +3244,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
@@ -3472,11 +3472,11 @@ hydratedButtons: [{
                                                                                                                     hydratedContentText: anu,
                                                                                                                     locationMessage: {
                                                                                                                     jpegThumbnail: fs.readFileSync('./image/drips.jpg')},
-                                                                                                                    hydratedFooterText: `ZIM BOT INC`,
+                                                                                                                    hydratedFooterText: `ZERO BOT INC`,
                                                                                                                     hydratedButtons: [{
                                                                                                                         urlButton: {
                                                                                                                             displayText: 'SUBSCRIBE',
-                                                                                                                            url: 'https://youtu.be/-qgrOvpZqH8'
+                                                                                                                            url: 'https://www.youtube.com/channel/UCzEdH_d_z82l9AI5JDghc0w'
                                                                                                                         }
                                                                                                                     }, {
                                                                                                                         quickReplyButton: {
